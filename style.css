@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(346deg 17% 70%);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: red; */
+}
+
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-color: green;
+  background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+#part3 {
+  height: 100%;
+  width: 7%;
+}
+
+#text-div {
+  /* height: 300px; */
+  position: absolute;
+  width: 322px;
+  /* background-color: red; */
+  left: 5%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div h1 {
+  font-size: 95px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#small-img {
+  height: 400px;
+  width: 300px;
+  /* background-color: red; */
+  background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(0, -50%);
+}
+
+#vertical-text {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 40%;
+  right: -4%;
+  transform-origin: (0%, 0%);
+  display: flex;
+}
+
+#vertical-text h1 {
+  font-size: 79px;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 10px;
+  font-family: "IBM Plex Serif", serif;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+}
+
+#nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#nav img {
+  height: 50px;
+}
+
+#nav h5 {
+  font-size: 25px;
+  font-family: "IBM Plex Serif", serif;
+  color: #fff;
+  z-index: 1;
+}
